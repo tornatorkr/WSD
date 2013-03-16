@@ -1,0 +1,134 @@
+body{
+	color: #707070;
+	font-family: 'Inder', arial, helvetica;
+	font-size: 14px;
+	line-height: 1.5;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	background: #E0EDFF;  
+}
+
+h1{
+	margin: 0;
+	padding: 5px 10px 0;
+	color: #000;
+	font-family: 'Simonetta', helvetica, sans-serif;
+	text-shadow: 2px 2px 4px #6633FF;
+}
+
+h2{
+	margin: 0;
+	padding: 5px 10px 0;
+	color: #000;
+	font-family: 'Simonetta', helvetica, sans-serif;
+}
+
+h3{
+	margin: 0;
+	padding: 5px 10px 0;
+	color: #F00000;
+	font-family: 'Simonetta', helvetica, sans-serif;
+}
+
+h4, h5{
+		margin: 0;
+		padding: 5px 10px 0;
+		font-family: 'Simonetta', helvetica, sans-serif;
+}
+
+div{
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	color: #CC0033;
+
+}
+
+p{
+		margin: 0 10px;
+		
+}
+
+ul{
+
+	list-style-type: none;
+}
+
+a:hover{
+	color: white;
+}
+
+.inline{
+	
+	display: inline;
+	
+}
+
+#button{
+	margin: 15px auto;
+	padding:15px 15px 0;
+	background-color: green;
+	background-image: url("../images/green_grad.png");
+	background-repeat: repeat-x;
+	height: 70px;
+	width: 250px;
+	border: 1px solid black;
+	border-radius: 15px; 
+	
+	
+}
+
+header {
+
+	background: #FFCA80;
+	
+}
+aside {
+	width: 280px;
+	float: right;
+	background: #DFC081;
+	opacity: .7;
+}
+
+#main {
+	height: 640px;
+	background: #FFE6CC url("../images/Joe_HB_guitar.png") no-repeat center 135px;
+    
+}
+
+footer {
+	clear: both;
+	background: #FFCA80;
+
+}
+
+footer p {
+
+	margin-bottom: 0;
+	padding-bottom: 5px;
+}
+
+
+#logo{
+
+	width: 685px;
+	float: right;
+}
+
+#logo2{
+
+	width: 640px;
+	float: right;
+}
+
+.clearFix {
+
+	clear: both;
+	
+}
+
+#clearFix {
+
+	clear: both;
+	
+}
