@@ -1,38 +1,67 @@
 body{
 	color: #707070;
 	font-family: 'Inder', arial, helvetica;
+<<<<<<< HEAD
 	font-size: 14px;
 	line-height: 1.5;
 	width: 960px;
 	margin: 0 auto;
 	padding: 0;
 	background: #E0EDFF;  
+=======
+	font-size: .85em;
+	line-height: 1.5;
+	width: 75%;
+	margin: 0 auto;
+	padding: 0;
+	background: #E0EDFF;
+	  
+>>>>>>> master
 }
 
 h1{
 	margin: 0;
+<<<<<<< HEAD
 	padding: 5px 10px 0;
 	color: #000;
 	font-family: 'Simonetta', helvetica, sans-serif;
 	text-shadow: 2px 2px 4px #6633FF;
+=======
+	padding: .52803333333333% 1.04166666667% 0;
+	color: #000;
+	font-family: 'Simonetta', helvetica, sans-serif;
+	text-shadow: .142857142857142em .142857142857142em .28571428571428em #6633FF;
+>>>>>>> master
 }
 
 h2{
 	margin: 0;
+<<<<<<< HEAD
 	padding: 5px 10px 0;
 	color: #000;
 	font-family: 'Simonetta', helvetica, sans-serif;
+=======
+	padding: .52803333333333% 1.04166666667% 0;
+	color: #000;
+	font-family: 'Simonetta', helvetica, sans-serif;
+	
+>>>>>>> master
 }
 
 h3{
 	margin: 0;
+<<<<<<< HEAD
 	padding: 5px 10px 0;
+=======
+	padding: .52803333333333% 1.04166666667% 0;
+>>>>>>> master
 	color: #F00000;
 	font-family: 'Simonetta', helvetica, sans-serif;
 }
 
 h4, h5{
 		margin: 0;
+<<<<<<< HEAD
 		padding: 5px 10px 0;
 		font-family: 'Simonetta', helvetica, sans-serif;
 }
@@ -41,11 +70,26 @@ div{
 	-moz-column-count: 3;
 	-webkit-column-count: 3;
 	color: #CC0033;
+=======
+		padding: .52803333333333% 1.04166666667% 0;
+		font-family: 'Simonetta', helvetica, sans-serif;
+}
+
+div {
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	color: #CC0033;
+	
+>>>>>>> master
 
 }
 
 p{
+<<<<<<< HEAD
 		margin: 0 10px;
+=======
+		margin: 0 1.04166666667%;
+>>>>>>> master
 		
 }
 
@@ -65,15 +109,27 @@ a:hover{
 }
 
 #button{
+<<<<<<< HEAD
 	margin: 15px auto;
 	padding:15px 15px 0;
+=======
+	margin: 1.5625% auto;
+	padding:1.5625% 1.5625% 0;
+>>>>>>> master
 	background-color: green;
 	background-image: url("../images/green_grad.png");
 	background-repeat: repeat-x;
 	height: 70px;
+<<<<<<< HEAD
 	width: 250px;
 	border: 1px solid black;
 	border-radius: 15px; 
+=======
+	width: 89.285714285714%;
+	border: 1px solid black;
+	border-radius: 15px;
+	font-size: 1.5em; 
+>>>>>>> master
 	
 	
 }
@@ -83,6 +139,13 @@ header {
 	background: #FFCA80;
 	
 }
+<<<<<<< HEAD
+=======
+
+header nav{
+	float: right;
+}
+>>>>>>> master
 aside {
 	width: 280px;
 	float: right;
@@ -92,7 +155,12 @@ aside {
 
 #main {
 	height: 640px;
+<<<<<<< HEAD
 	background: #FFE6CC url("../images/Joe_HB_guitar.png") no-repeat center 135px;
+=======
+	background: #FFE6CC url("../images/BG_Joe_HB_guitar.png") no-repeat center top;
+	overflow: scroll;
+>>>>>>> master
     
 }
 
@@ -105,11 +173,16 @@ footer {
 footer p {
 
 	margin-bottom: 0;
+<<<<<<< HEAD
 	padding-bottom: 5px;
+=======
+	padding-bottom: .52803333333333%;
+>>>>>>> master
 }
 
 
 #logo{
+<<<<<<< HEAD
 
 	width: 685px;
 	float: right;
@@ -119,6 +192,19 @@ footer p {
 
 	width: 640px;
 	float: right;
+=======
+	margin-right: auto;
+	margin-left: auto;
+	width: 71.35416666666667%;
+	
+}
+
+#logo2{
+	margin-right: auto;
+	margin-left: auto;
+	width: 66.66666666666667%;
+	
+>>>>>>> master
 }
 
 .clearFix {
@@ -132,3 +218,77 @@ footer p {
 	clear: both;
 	
 }
+<<<<<<< HEAD
+=======
+
+/*Media Queries**********************/
+
+/*Tablet Portrait Size to standard 960 (devices and browsers)*/
+@media screen and (min-width: 768px) and (max-width: 959px){
+
+#logo{
+	margin-right: 0;
+	margin-left: 0;
+	width: 71.35416666666667%;
+	
+}
+
+#logo2{
+	margin-right: 0;
+	margin-left: 0;
+	width: 66.66666666666667%;
+	
+}
+
+
+
+}
+
+/*Mobile Landscape to Tablet Portrait (devices and browsers)*/
+@media screen and (min-width: 480px) and (max-width: 767px){
+
+header nav{
+	float: none;
+	}
+
+div {
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	color: #CC0033;}
+	
+aside {
+	float: none;
+}
+
+}
+
+/*Mobile Portrait Size to Mobile Landscape (devices and browsers)*/
+@media screen and (max-width: 479px){
+
+header nav{
+	float: none;
+	}
+
+div {
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	color: #CC0033;}
+	
+aside {
+	float: none;
+}
+
+#logo{
+	display: none;
+	
+}
+
+#logo2{
+	margin-right: auto;
+	margin-left: 0;
+	width: 66.66666666666667%;
+}	
+	
+
+}
+>>>>>>> master
